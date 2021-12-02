@@ -1,0 +1,135 @@
+/* This is my CSS File! */
+/* All of these items can be editted by using the name of the item we want to edit. Example: "h1" this will change header 1. */
+/* "id" is more specific than "class" and "element name" is the least specific. */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yellowtail&display=swap');
+
+/* --------------- Element - General --------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url("./images/340554.png");
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    margin-left: 25px;
+    font-family: 'Yellowtail';
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+li {
+    font-family: 'Yellowtail';
+    float: right;
+    list-style-type: none;
+    margin-right: 6px;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: cyan;
+    font-size: 25px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* --------------- ID - Most specific --------------- */
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#header img {
+    border-radius: 100px;
+    margin: 50px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+#aboutmebox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Caveat';
+    font-size: 28px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+#abouttext {
+    width: 500px;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navbar li {
+    margin: 10px;
+}
+
+#textbox {
+    font-family: 'Caveat';
+    font-size: 28px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    width: 500px;
+}
+
+#navbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 0px 10px 0px 10px;
+}
+
+#name {
+    color: black;
+}
+
+#logos img {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* --------------- Class - Less specific --------------- */
+
