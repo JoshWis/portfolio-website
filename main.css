@@ -171,3 +171,52 @@ h3 {
     font-size: 14px;
     outline: none;
 }
+
+.projects {
+    padding: 32px 0;
+    margin-top: 32px;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.project-container {
+    text-align: center;
+    width: 375px;
+    padding: 16px;
+}
+
+.project-container p {
+    padding: 6.4px;
+}
+
+.project-title {
+    margin-bottom: 8px;
+    color: black;
+}
+
+.project-details {
+    margin-bottom: 8px;
+    color: black;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+}
