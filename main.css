@@ -31,6 +31,11 @@ h1 {
     font-size: 35px;
 }
 
+h2 {
+    font-family: 'Caveat';
+    font-size: 35px;
+}
+
 li {
     font-family: 'Yellowtail';
     float: right;
@@ -38,7 +43,7 @@ li {
     margin-right: 6px;
 }
 
-a {
+.navbarlink {
     display: block;
     padding: 8px;
     background-color: cyan;
@@ -48,7 +53,7 @@ a {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
 }
 
-a:hover {
+.navbarlink:hover {
     text-decoration: underline;
     font-size: 25px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -131,6 +136,19 @@ h3 {
     margin: 10px;
 }
 
+#sociallogos img {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+#sociallogos {
+    display: flex;
+    justify-content: center;
+}
+
 /* --------------- Class - Less specific --------------- */
 
 .contact {
@@ -166,7 +184,6 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    border: none;
     border: 2px outset blue;
     font-size: 14px;
     outline: none;
@@ -178,8 +195,8 @@ h3 {
 }
 
 .project-pic {
-    width: 65%;
-    height: 60%;
+    width: 90%;
+    height: 75%;
 }
 
 .projects-container {
@@ -219,4 +236,10 @@ h3 {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
